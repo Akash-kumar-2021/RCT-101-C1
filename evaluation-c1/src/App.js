@@ -49,6 +49,7 @@ function App() {
       <Slide data={data[id]}/>
      <button onClick={Previous} disabled={id === 0}>Prev</button>
       <button onClick={Next} disabled={id === 2}>Next</button>
+      <h5>Creted by Akash</h5>
     </div>
   );
 }
